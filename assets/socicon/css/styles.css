@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+#whatsapp-button{
+  margin-top:15px;
+}
+
 [data-icon]:before {
   font-family: "socicon" !important;
   content: attr(data-icon);
