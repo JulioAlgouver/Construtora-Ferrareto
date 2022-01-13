@@ -1,0 +1,9 @@
+#menu_text{
+
+}
+
+#menu_text span{
+  display: flex;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
