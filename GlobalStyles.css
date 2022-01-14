@@ -1,9 +1,35 @@
-#menu_text{
+#section-servicos{
+  display: flex;
+  width: 100%;
+  height: 35pc;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 
 }
 
-#menu_text span{
+#section-servicos .link-servicos{
+  position: relative;
   display: flex;
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  float: left;
+  width: 20pc;
+  height: 15pc;
+  border: solid 3px black;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+#section-servicos .link-servicos:hover{
+  border: solid 3px rgb(33, 178, 235);
+  box-shadow: 1px 1px 5px 3px gray;
+  color: black;
+}
+
+#section-servicos .servicos-label{
+  position: absolute;
+  display: flex;
+  float: left;
+  width: 70%;
+  top: 80%;
 }
