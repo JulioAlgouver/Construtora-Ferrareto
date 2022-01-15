@@ -9,6 +9,17 @@
 }
 
 #section-servicos .link-servicos{
+  position: absolute;
+  display: flex;
+  float: left;
+  width: 55%;
+  height: 15pc;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+#section-servicos .link-servicos a{
   position: relative;
   display: flex;
   float: left;
@@ -20,7 +31,7 @@
   transition: 0.5s;
 }
 
-#section-servicos .link-servicos:hover{
+#section-servicos .link-servicos a:hover{
   border: solid 3px rgb(33, 178, 235);
   box-shadow: 1px 1px 5px 3px gray;
   color: black;
