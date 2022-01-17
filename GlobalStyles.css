@@ -78,9 +78,19 @@
   padding-bottom: 5pc;
 }
 
-#container-obras-atuais .main .img-link{
-  width: 25pc;
-  height: 15pc;
+#container-obras-atuais .main .description-container{
+  
+}
 
-  padding-left: 5pc;
+#container-obras-atuais .main .img-link {
+  width: 20pc;
+  height: 15pc;
+  padding: 10px;
+  margin-left: 5pc;
+  border: 2px solid rgb(238, 238, 238);
+  transition: 0.4s;
+}
+
+#container-obras-atuais .main .img-link:hover {
+  border: 2px solid dimgray;
 }
