@@ -82,10 +82,21 @@
   
 }
 
+#img-button-link{
+
+  padding: 5px;
+  border: 3px solid rgb(238, 238, 238);
+  transition: 0.4s;
+}
+
+#img-button-link:hover{
+  border: 3px solid dimgray;
+}
+
 #container-obras-atuais .main .img-link {
   width: 20pc;
   height: 15pc;
-  padding: 10px;
+  padding: 5px;
   margin-left: 5pc;
   border: 2px solid rgb(238, 238, 238);
   transition: 0.4s;
