@@ -78,29 +78,29 @@
   padding-bottom: 5pc;
 }
 
-#container-obras-atuais .main .description-container{
-  
-}
-
-#btn-link-container strong{
+#description-layer{
   position: relative;
   display: flex;
   float: right;
-  margin-top: 2pc;
-  margin-left: 2pc;
-  color: black;
-  text-decoration: none;
+  width: 500px;
+  height: 235px;
+  margin-bottom: 3pc;
+  background: greenyellow;
 }
 
-#btn-link-container span{
+#description-layer strong{
+  position: absolute;
+  float: left;
+  display: flex;
+  width: 100%;
+}
+
+#description-layer span{
   position: relative;
-  bottom: 10pc; 
-  left: 25pc;
-  float: right;
-  margin-top: 2pc;
-  margin-left: 2pc;
-  color: black;
-  text-decoration: none;
+  float: left;
+  display: flex;
+  width: 100%;
+  top: 20;
 }
 
 #img-button-link{
@@ -119,6 +119,7 @@
   height: 15pc;
   padding: 5px;
   margin-left: 5pc;
+  margin-bottom: 3pc;
   border: 2px solid rgb(238, 238, 238);
   transition: 0.4s;
 }
