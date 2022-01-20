@@ -82,9 +82,30 @@
   
 }
 
+#btn-link-container strong{
+  position: relative;
+  display: flex;
+  float: right;
+  margin-top: 2pc;
+  margin-left: 2pc;
+  color: black;
+  text-decoration: none;
+}
+
+#btn-link-container span{
+  position: relative;
+  bottom: 10pc; 
+  left: 25pc;
+  float: right;
+  margin-top: 2pc;
+  margin-left: 2pc;
+  color: black;
+  text-decoration: none;
+}
+
 #img-button-link{
 
-  padding: 5px;
+  padding: 50px;
   border: 3px solid rgb(238, 238, 238);
   transition: 0.4s;
 }
