@@ -85,16 +85,17 @@
   width: 500px;
   height: 235px;
   margin-bottom: 3pc;
-  background: greenyellow;
 }
 
-#description-layer strong{
+#description-layer h5{
   position: absolute;
   float: left;
   display: flex;
   width: 100%;
   top: 10%;
   left: 5%;
+
+  font-family: 'Open Sans', sans-serif;
 }
 
 #description-layer span{
@@ -104,11 +105,14 @@
   width: 100%;
   top: 30%;
   left: 5%;
+  line-height: 30px;
+
+  font-family: 'Open Sans', sans-serif;
 }
 
 #img-button-link{
 
-  padding: 50px;
+  padding: 15px;
   border: 3px solid rgb(238, 238, 238);
   transition: 0.4s;
 }
