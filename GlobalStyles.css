@@ -134,3 +134,18 @@
 #container-obras-atuais .main .img-link:hover {
   border: 2px solid dimgray;
 }
+
+#guide-links{
+  position: relative;
+  display: flex;
+  margin-left: 5pc;
+  background: none;
+}
+
+#guide-links .true-link{
+  transition: 0.2s;
+}
+
+#guide-links .true-link:hover{
+  color: rgb(189, 212, 241);
+}
