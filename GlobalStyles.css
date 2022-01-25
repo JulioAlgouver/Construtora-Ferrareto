@@ -16,6 +16,7 @@
 #article-content{
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+  color: rgb(61, 61, 61);
 }
 
 #section-servicos{
@@ -147,4 +148,10 @@
 
 #guide-links .true-link:hover{
   color: rgb(189, 212, 241);
+}
+
+#about-description-text{
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 18px;
+  font-weight: 500;
 }
