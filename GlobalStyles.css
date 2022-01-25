@@ -164,3 +164,9 @@
   display: flex;
   text-align: justify;
 }
+
+#description-gallery-text{
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 14px;
+  font-weight: 500;
+}
